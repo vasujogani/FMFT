@@ -1,5 +1,5 @@
 <template>
-<div id="results">
+<div id="truckinfo">
 </div>
 </template>
 
