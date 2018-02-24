@@ -2,8 +2,9 @@
 <div id="home">
   <label>
     Enter location:
-  <input v-model="zipcode">
   </label>
+  <br/>
+  <input v-model="zipcode">
 </div>
 </template>
 
@@ -15,5 +16,8 @@ export default {
 </script>
 
 <style>
-
+label {
+  font-size: 6pt;
+  text-align: left;
+}
 </style>
