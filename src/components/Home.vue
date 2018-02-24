@@ -1,5 +1,9 @@
 <template>
 <div id="home">
+  <label>
+    Enter location:
+  <input v-model="zipcode">
+  </label>
 </div>
 </template>
 
