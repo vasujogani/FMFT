@@ -6,7 +6,7 @@
     </video>
     <div class="topbar">
       <div class="tButton">
-        <button type="button">Truckie? Click here</button>
+        <button @click="redirectTruckie()" type="button">Truckie? Click here</button>
         <br/>
       </div>
     </div>
@@ -56,6 +56,10 @@ export default {
         this.$router.push({ name: 'results' });
       });
     },
+
+    redirectTruckie() {
+      this.$router.push({name: 'truckie'});
+    },
   },
 };
 </script>
@@ -75,7 +79,7 @@ body{
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
     z-index: 0;
 }
