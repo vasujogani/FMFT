@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Find My Food Truck</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <img src="foodtruckpicedit.png" alt="Food Truck" width = "150px">
+
+    <h2>Name of the Restauraunt</h2>
+    <input type="text" placeholder="Joe's Deli">
+
+    <h2>Description of the Restauraunt</h2>
+    <input type="text" placeholder="We have bomb sandwiches">
+  </body>
+
+  <style media="screen">
+
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+    h2{
+      color: white;
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    body{
+      background-image: url("sushi.jpg");
+      background-color: green;
+      text-align: center;
+      padding-top: 25 vh;
+    }
+
+    input{
+      text-align: center;
+      border-radius: 10px;
+      font-family: Trebuchet MS;
+      border: solid;
+      border-color: white;
+      width: 300px;
+      height: 50px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    #overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: -2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    }
+
+  </style>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</html>

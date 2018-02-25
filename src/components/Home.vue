@@ -29,8 +29,11 @@ export default {
 </script>
 
 <style>
-label {
-  font-size: 6pt;
-  text-align: left;
+
+body{
+  height: 100vh;
+  text-align: center;
 }
+
+
 </style>
