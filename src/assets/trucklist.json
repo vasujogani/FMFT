@@ -1,0 +1,84 @@
+[{
+    "name": "T.J.'s Dawg House",
+    "type": "Burgers",
+    "rating": "8",
+    "zip": 78234,
+    "location": [23.3, 24.4],
+    "timing": [[10, 19],[10, 19],[10, 19],[10, 19],[10, 19],[10, 20],[10, 20]],
+    "menu": [{"The Classic Burger" : 10},{"Tillamook Cheddar": 9},
+             {"Whopper": 6},{"Ham Burger": 5},{"Double Ham Burger": 7},
+             {"Bacon & Cheese Whopper": 7},{"Original Chicken Sandwich": 5},
+             {"Bacon Cheeseburger" : 3},{"Double Cheeseburger": 4},
+             {"Rodeo Burger": 7}],
+    "reviews":[{"name": "Gregory H", "rate": 4, "feedback": "So filling and delicious"},
+               {"name": "Moxie T.", "rate": 3, "feedback": "I've been here a few times, and overall it's just fine"}],
+    "contact": "5122378428"
+},
+
+{
+    "name": "Capriotti's",
+    "type": "Sandwich",
+    "rating": "7",
+    "zip": 78705,
+    "location": [23.3, 24.4],
+    "timing": [[9, 17],[9, 17],[9, 17],[9, 17],[9, 17],[9, 17],[9, 17]],
+    "menu": [{"The Bobbie" : 9},{"Capastrami": 9},
+             {"Cole Turkey": 9},{"Slaw Be Jo": 9},{"Cheese Steak": 9},
+             {"Homemade Meatball": 9},{"Cran Slam Club": 9}],
+    "reviews":[{"name": "John T", "rate": 3, "feedback": "cold turkey, with stuffing, cranberry sauce, and mayo was decent"},
+               {"name": "Robert C", "rate": 3, "feedback": "The capistrami is hot pastrami with only special cole slaw"}],
+    "contact": "5123445345"
+},
+
+{
+    "name": "Pinch",
+    "type": "Asian",
+    "rating": "9",
+    "zip": 78705,
+    "location": [23.3, 24.4],
+    "timing": [[12, 21],[12, 21],[12, 21],[12, 21],[12, 21],[12, 21],[12, 21]],
+    "menu": [{"ZYDECO SHRIMP" : 10},{"CHARBROILED OYSTERS": 12},
+             {"BOUDIN BALLS": 9},{"SEAFOOD GUMBO": 12},{"FRIED CRAWFISH SALAD": 7},
+             {"FRIED SHRIMP": 12},{"CAJUN RAVIOLI ": 15},
+             {"SEAFOOD COMBO" : 12},{"ONION RINGS": 5}],
+    "reviews":[{"name": "Maxwell G", "rate": 5, "feedback": "So filling and delicious"},
+               {"name": "Tony K", "rate": 4, "feedback": "Amazing quality, but has long line"}],
+    "contact": "5123445345"
+},
+
+{
+    "name": "Olive Park",
+    "type": "Italian",
+    "rating": "7",
+    "zip": 78705,
+    "location": [23.3, 24.4],
+    "timing": [[12, 22],[12, 22],[12, 22],[12, 22],[12, 22],[12, 22],[12, 22]],
+    "menu": [{"Loaded Pasta Chips" : 7},{"Lasagna Fritta": 9},
+             {"Parmesan Zucchini Bites": 7},{"Fried Mozzarella": 6},{"Stuffed Mushrooms": 8},
+             {"Five Cheese Ziti al Forno": 13},{"Cheese Ravioli": 13},
+             {"Fettuccine Alfredo" : 13},{"Tour of Italy": 18}],
+    "reviews":[{"name": "Jordan E", "rate": 5, "feedback": "Clean, quick, good service"},
+               {"name": "Veronicca L", "rate": 1, "feedback": "long wait to get a table, manager smelled bad"},
+               {"name": "Zita C", "rate": 4, "feedback": "Olive Garden is a solid place to grab a quick lunch"}],
+    "contact": "5122437758"
+}
+
+{
+    "name": "Olive Park",
+    "type": "Italian",
+    "rating": "7",
+    "zip": 78705,
+    "location": [23.3, 24.4],
+    "timing": [[12, 22],[12, 22],[12, 22],[12, 22],[12, 22],[12, 22],[12, 22]],
+    "menu": [{"Loaded Pasta Chips" : 7},{"Lasagna Fritta": 9},
+             {"Parmesan Zucchini Bites": 7},{"Fried Mozzarella": 6},{"Stuffed Mushrooms": 8},
+             {"Five Cheese Ziti al Forno": 13},{"Cheese Ravioli": 13},
+             {"Fettuccine Alfredo" : 13},{"Tour of Italy": 18}],
+    "reviews":[{"name": "Jordan E", "rate": 5, "feedback": "Clean, quick, good service"},
+               {"name": "Veronicca L", "rate": 1, "feedback": "long wait to get a table, manager smelled bad"},
+               {"name": "Zita C", "rate": 4, "feedback": "Olive Garden is a solid place to grab a quick lunch"}],
+    "contact": "5122437758"
+}
+
+
+]
