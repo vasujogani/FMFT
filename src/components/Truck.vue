@@ -47,4 +47,5 @@ div.truck > span.truckrow {
   display: inline-flex;
   width: 100%;
 }
+
 </style>
