@@ -10,14 +10,6 @@
           <br/>
         </div>
       </div>
-      <!-- <div class="content">
-      <div id = "row">
-        <div class="brand">
-          <h1>FIND MY FOOD TRUCK</h1>
-          <h3>(motto)</h3>
-          <br/>
-        </div>
-      </div> -->
       <div class="content">
         <div id = "row">
           <div class="brand">
@@ -27,7 +19,7 @@
           </div>
         </div>
         <div id = "row">
-          <input type="text" class= "inputBar" placeholder="Search..">
+          <input type="text" class= "inputBar" placeholder="Zip Code">
           <!-- <button type="button">FIND</button> -->
           <button type="button" class="btn btn-success" id= "searchBtn">FIND</button>
         </div>
@@ -109,8 +101,8 @@ text-align: center;
   width: 100%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   margin-top: 5em;
   text-align: center;
 
@@ -128,10 +120,12 @@ text-align: center;
 }
 
 .inputBar{
+  text-align: center;
   width: 15em;
   height: 100%;
   padding: 1em;
-  border-radius: 1em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
   font-family: 'Kaushan Script', cursive;
 }
 
@@ -148,19 +142,20 @@ text-align: center;
 }
 
 #searchBtn {
-  margin-left: 1.5em;
   width: 6em;
   height: 100%;
-  border-radius: 1em;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 0em;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 0em;
   font-family: 'Kaushan Script', cursive;
 }
 
 #nearMeBtn {
-  width: 18em;
+  width: 21.5em;
   height: 3em;
   border-radius: 1em;
   font-family: 'Kaushan Script', cursive;
 }
-
 
 </style>
