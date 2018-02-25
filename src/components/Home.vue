@@ -6,7 +6,7 @@
       </video>
       <div class="topbar">
         <div class="tButton">
-          <button @click="redirectTruckie()" type="button">Truckie? Click here</button>
+          <button @click="redirectTruckie()" type="button" class="btn btn-basic" id="truckieBtn">Truckie? Click here</button>
           <br/>
         </div>
       </div>
@@ -127,6 +127,9 @@ text-align: center;
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
   font-family: 'Kaushan Script', cursive;
+  textarea:focus, input:focus{
+    outline: none;
+  }
 }
 
 #row {
@@ -137,8 +140,9 @@ text-align: center;
 
 #truckieBtn {
   font-family: 'Open Sans Condensed', sans-serif;
-  width: 16em;
-  border-radius: 3.5em;
+  font-size: 1.5em;
+  width: 10em;
+  border-radius: 1.5em;
 }
 
 #searchBtn {

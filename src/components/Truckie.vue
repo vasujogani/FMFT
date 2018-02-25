@@ -13,7 +13,7 @@
 
 <script>
 const foodpic = require('@/assets/foodtruckpicedit.png');
-console.log(foodpic);
+
 const sushipic = require('@/assets/sushi.jpg');
 document.querySelector('body').style['background-image'] = `url("${sushipic}")`;
 export default {
@@ -36,7 +36,7 @@ export default {
 
   body{
     /*background-image: url();*/
-    background-color: green;
+    /*background-color: green;*/
     text-align: center;
     padding-top: 25 vh;
   }

@@ -24,6 +24,9 @@ import { mapGetters } from 'vuex';
 
 const trucks = require('@/assets/trucklist');
 
+const sushipic = require('@/assets/sushi.jpg');
+document.querySelector('body').style['background-image'] = `url("${sushipic}")`;
+
 export default {
   name: 'results',
   components: {
@@ -56,5 +59,12 @@ html > body {
 #reults {
   width: 500px;
   margin: auto;
+}
+
+body{
+  /*background-image: url();*/
+  /*background-color: green;
+  text-align: center;
+  padding-top: 25 vh;*/
 }
 </style>
