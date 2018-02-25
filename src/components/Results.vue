@@ -49,5 +49,7 @@ export default {
 </script>
 
 <style>
-
+html > body {
+  background-image: none !important;
+}
 </style>
