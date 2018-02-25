@@ -61,23 +61,6 @@
                {"name": "Veronicca L", "rate": 1, "feedback": "long wait to get a table, manager smelled bad"},
                {"name": "Zita C", "rate": 4, "feedback": "Olive Garden is a solid place to grab a quick lunch"}],
     "contact": "5122437758"
-},
-
-{
-    "name": "Olive Park",
-    "type": "Italian",
-    "rating": "7",
-    "zip": 75080,
-    "location": [32.977884, -96.755185],
-    "timing": [[12, 22],[12, 22],[12, 22],[12, 22],[12, 22],[12, 22],[12, 22]],
-    "menu": [{"Loaded Pasta Chips" : 7},{"Lasagna Fritta": 9},
-             {"Parmesan Zucchini Bites": 7},{"Fried Mozzarella": 6},{"Stuffed Mushrooms": 8},
-             {"Five Cheese Ziti al Forno": 13},{"Cheese Ravioli": 13},
-             {"Fettuccine Alfredo" : 13},{"Tour of Italy": 18}],
-    "reviews":[{"name": "Jordan E", "rate": 5, "feedback": "Clean, quick, good service"},
-               {"name": "Veronicca L", "rate": 1, "feedback": "long wait to get a table, manager smelled bad"},
-               {"name": "Zita C", "rate": 4, "feedback": "Olive Garden is a solid place to grab a quick lunch"}],
-    "contact": "5122437758"
 }
 
 

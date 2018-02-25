@@ -24,9 +24,6 @@ import { mapGetters } from 'vuex';
 
 const trucks = require('@/assets/trucklist');
 
-console.log(trucks.map(t => t.name));
-trucks.sort((a, b) => funcs.distance(a.location, b.location));
-console.log(trucks.map(t => t.name));
 export default {
   name: 'results',
   components: {
@@ -44,7 +41,9 @@ export default {
   mounted() {
     if (!this.location) {
       this.$router.push('/');
+      return;
     }
+    trucks.sort((a, b) => funcs.distance(a.location, this.location) - funcs.distance(b.location, this.location));
   },
 };
 </script>
