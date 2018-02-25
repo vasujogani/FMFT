@@ -1,10 +1,14 @@
 <template>
 <div class="truck">
-  <span>
-    <img :src="truck.img">
-    <div class="truckinfo">
+  <span class="truckrow">
+    <img class="icon" :src="truck.image">
+    <div class="col">
       {{truck.name}} <br/>
       {{truck.type}}
+    </div>
+    <div class="col">
+      Rating <br/>
+      {{truck.rating}}/10
     </div>
   </span>
 </div>
@@ -23,5 +27,17 @@ export default {
 </script>
 
 <style>
-
+img.icon {
+  width: 8em;
+  height: 8em;
+}
+div.truck {
+  border: 1px black solid;
+  margin: 1em 20em;
+  display: flex;
+}
+div.truck > span.truckrow {
+  display: inline-flex;
+  width: 100%;
+}
 </style>
