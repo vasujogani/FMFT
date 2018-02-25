@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+        </style>
+    </head>
+    <body>
+        <div id = "container">
+        <video autoplay muted loop id="myVideo">
+            <source src="background.mp4" type="video/mp4">
+        </video>
+
+        <div class="topbar">
+            <div class="tButton">
+                <button type="button">Truckie? Click here</button>
+                <br/>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id = "row">
+            <div class="brand">
+                <h1>FIND MY FOOD TRUCK</h1>
+                <h3>(motto)</h2>
+                <br/>
+            </div>
+        </div>
+
+        <div id = "row">
+            <input type="text" class= "inputBar" placeholder="Search..">
+            <!-- <button type="button">FIND</button> -->
+            <button type="button" class="btn btn-success" id= "searchBtn">FIND</button>
+        </div>
+        <div id= "row">
+                <div class="search">
+                        <button type="button" class="btn btn-warning" id = "nearMeBtn">NEAR ME</button>
+                    </div>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
