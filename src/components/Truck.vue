@@ -40,6 +40,12 @@ div.truck {
   border: 1px black solid;
   margin: 1em 20em;
   display: flex;
+  border-radius: 1%;
+    /*background-color: #fff;*/
+    box-shadow: 0 0 60px 30px #b3b3b5;  /* inner white */
+        /*0 0 80px 60px #f0f,
+        0 0 140px 90px #0ff;*/
+
 }
 div.truck > span.truckrow {
   display: inline-flex;

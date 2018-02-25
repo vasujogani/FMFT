@@ -35,8 +35,8 @@ export default {
   }
 
   body{
-    /*background-image: url();*/
-    /*background-color: green;*/
+    /*background-image: url('@/assets/sushi.png');*/
+    background-color: #ccdfff;
     text-align: center;
     padding-top: 25 vh;
   }
