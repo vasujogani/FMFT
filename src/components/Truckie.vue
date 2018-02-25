@@ -19,7 +19,7 @@ document.querySelector('body').style['background-image'] = `url("${sushipic}")`;
 export default {
   data() {
     return {
-      foodpic,
+      fooodpic,
     };
   },
 };
