@@ -52,4 +52,9 @@ export default {
 html > body {
   background-image: none !important;
 }
+
+#reults {
+  width: 500px;
+  margin: auto;
+}
 </style>

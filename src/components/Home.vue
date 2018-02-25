@@ -10,14 +10,14 @@
           <br/>
         </div>
       </div>
-      <div class="content">
+      <!-- <div class="content">
       <div id = "row">
         <div class="brand">
           <h1>FIND MY FOOD TRUCK</h1>
           <h3>(motto)</h3>
           <br/>
         </div>
-      </div>
+      </div> -->
       <div class="content">
         <div id = "row">
           <div class="brand">
@@ -113,7 +113,7 @@ text-align: center;
   padding-bottom: 5em;
   margin-top: 5em;
   text-align: center;
-  
+
   /* color: whitesmoke; */
 }
 
