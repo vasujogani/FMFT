@@ -10,14 +10,6 @@
           <br/>
         </div>
       </div>
-      <!-- <div class="content">
-      <div id = "row">
-        <div class="brand">
-          <h1>FIND MY FOOD TRUCK</h1>
-          <h3>(motto)</h3>
-          <br/>
-        </div>
-      </div> -->
       <div class="content">
         <div id = "row">
           <div class="brand">
@@ -109,8 +101,8 @@ text-align: center;
   width: 100%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   margin-top: 5em;
   text-align: center;
 
