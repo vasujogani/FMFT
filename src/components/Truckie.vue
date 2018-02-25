@@ -8,19 +8,26 @@
 
     <h2>Description of the Restauraunt</h2>
     <input type="text" placeholder="We have bomb sandwiches">
+    <br/>
+    <button @click="home" type="button" class="btn btn-success submit">Submit</button>
   </div>
 </template>
 
 <script>
 const foodpic = require('@/assets/foodtruckpicedit.png');
-
 const sushipic = require('@/assets/sushi.jpg');
+
 document.querySelector('body').style['background-image'] = `url("${sushipic}")`;
 export default {
   data() {
     return {
-      fooodpic,
+      foodpic,
     };
+  },
+  methods: {
+    home() {
+      this.$router.push('/');
+    },
   },
 };
 </script>
@@ -63,7 +70,10 @@ export default {
   bottom: 0;
   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
   z-index: -2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+  }
+
+  button.btn.submit {
+    border-radius: 1em;
   }
 
 </style>
