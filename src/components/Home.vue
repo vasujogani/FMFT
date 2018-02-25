@@ -19,7 +19,7 @@
           </div>
         </div>
         <div id = "row">
-          <input type="text" class= "inputBar" placeholder="Search..">
+          <input type="text" class= "inputBar" placeholder="Zip Code">
           <!-- <button type="button">FIND</button> -->
           <button type="button" class="btn btn-success" id= "searchBtn">FIND</button>
         </div>
@@ -120,10 +120,12 @@ text-align: center;
 }
 
 .inputBar{
+  text-align: center;
   width: 15em;
   height: 100%;
   padding: 1em;
-  border-radius: 1em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
   font-family: 'Kaushan Script', cursive;
 }
 
@@ -140,19 +142,20 @@ text-align: center;
 }
 
 #searchBtn {
-  margin-left: 1.5em;
   width: 6em;
   height: 100%;
-  border-radius: 1em;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 0em;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 0em;
   font-family: 'Kaushan Script', cursive;
 }
 
 #nearMeBtn {
-  width: 18em;
+  width: 21.5em;
   height: 3em;
   border-radius: 1em;
   font-family: 'Kaushan Script', cursive;
 }
-
 
 </style>
