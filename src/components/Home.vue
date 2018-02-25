@@ -1,11 +1,11 @@
 <template>
-<div id="home">
-  <label>
-    Enter location:
-  </label>
-  <br/>
-  <input v-model="zipcode">
+<body>
+  <div id="home">
+    <br/>
+    <input type="text" placeholder="Enter Zip Code">
+    <i class="fas fa-search"></i>
 </div>
+</body>
 </template>
 
 <script>
@@ -16,8 +16,11 @@ export default {
 </script>
 
 <style>
-label {
-  font-size: 6pt;
-  text-align: left;
+
+body{
+  height: 100vh;
+  text-align: center;
 }
+
+
 </style>
