@@ -6,7 +6,15 @@
       </video>
       <div class="topbar">
         <div class="tButton">
-          <button type="button" class="btn btn-basic" id= "truckieBtn">Truckie? Click Here</button>
+          <button @click="redirectTruckie()" type="button">Truckie? Click here</button>
+          <br/>
+        </div>
+      </div>
+      <div class="content">
+      <div id = "row">
+        <div class="brand">
+          <h1>FIND MY FOOD TRUCK</h1>
+          <h3>(motto)</h3>
           <br/>
         </div>
       </div>
@@ -56,6 +64,10 @@ export default {
         this.$router.push({ name: 'results' });
       });
     },
+
+    redirectTruckie() {
+      this.$router.push({name: 'truckie'});
+    },
   },
 };
 </script>
@@ -73,12 +85,12 @@ text-align: center;
 }
 
 #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  z-index: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
 }
 
 .brand {

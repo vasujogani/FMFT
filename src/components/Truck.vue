@@ -2,13 +2,20 @@
 <div class="truck">
   <span class="truckrow">
     <img class="icon" :src="truck.image">
-    <div class="col">
-      {{truck.name}} <br/>
-      {{truck.type}}
+    <div id = "row">
+
+      <div class="col">
+        {{truck.name}} <br/>
+        {{truck.type}}
+      </div>
+      <div class="col">
+        Rating <br/>
+        {{truck.rating}}/10
+      </div>
     </div>
-    <div class="col">
-      Rating <br/>
-      {{truck.rating}}/10
+    <div id = "row">
+
+      <button type="button" class="btn btn-success">MoreInfo</button>
     </div>
   </span>
 </div>
