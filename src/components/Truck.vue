@@ -2,20 +2,18 @@
 <div class="truck">
   <span class="truckrow">
     <img class="icon" :src="truck.image">
-    <div id = "row">
-
+    <div id="row">
       <div class="col">
         {{truck.name}} <br/>
         {{truck.type}}
       </div>
       <div class="col">
-        Rating <br/>
-        {{truck.rating}}/10
+        Rating: {{truck.rating}}/10
       </div>
     </div>
-    <div id = "row">
-
+    <div class="buttons">
       <button type="button" class="btn btn-success">MoreInfo</button>
+      <button type="button" class="btn btn-success">Go</button>
     </div>
   </span>
 </div>
@@ -46,5 +44,13 @@ div.truck {
 div.truck > span.truckrow {
   display: inline-flex;
   width: 100%;
+  justify-content: space-between;
+}
+div.buttons {
+  display: flex;
+  flex-direction: column;
+}
+div.buttons > button {
+  margin: 1em;
 }
 </style>

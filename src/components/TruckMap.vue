@@ -61,5 +61,8 @@ export default {
 </script>
 
 <style>
-
+div#map {
+  display: flex;
+  justify-content: center;
+}
 </style>
